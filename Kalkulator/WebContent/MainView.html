@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculator</title>
+	</head>
+	<body>
+		<form action="Main" method="POST">
+			Number of passengers: <input name="passenger"/>
+			Car: <select name="auto">
+				<option>Hyundai Solaris</option>
+				<option>Renault Logan</option>
+				<option>Skoda Octavia</option>
+				<option>Kia Soul</option>
+				<option>Ford Focus</option>
+				<option>Lada Vesta</option>
+			</select>
+			<br><br>
+			Luggage weight: <input name="luggage"/>
+			<br><br>
+			Distance: <input name="distance"/>
+			<br><br>
+			Season: <select name="season">
+				<option>Winter</option>
+				<option>Summer</option>
+			</select>
+			<br><br> 
+			<input type="submit" value="Calculate"/>
+		</form>
+		<form action="UseSavedData" method="POST">
+			<br>
+			<input type="submit" value="Use saved data"/>
+		</form>
+	</body>
+</html>
